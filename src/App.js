@@ -6,18 +6,22 @@ import Education from "./education/education";
 import Portofolio from "./portofolio/portofolio";
 import Floating from "./floatingButton/floating";
 import Footer from "./footer/footer";
+import React, { useRef } from 'react';
 
-function App() {
+function App() { 
+  const headerRef = useRef();
+
+  
   return (
-    <div className="App">
-      <Floating></Floating>
-      <Nav></Nav>
-      <Myheader></Myheader>
-      <Education></Education>
-      <Portofolio></Portofolio>
-      <Footer></Footer>
-      
-    </div>
+        <div className="App">
+         <Floating></Floating>
+         <Nav></Nav>
+         <Myheader></Myheader>
+         <Education></Education>
+         <Portofolio></Portofolio>
+         <Footer ></Footer>
+
+        </div>
   );
 }
 
