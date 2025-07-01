@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
  
-function Nav({updateHeaderCoontent}) {
+function Nav({updateHeaderContent}) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const handleLinkClick = () => {
       // Menggunakan metode updateContentByClass di komponen Header
