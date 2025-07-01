@@ -157,8 +157,7 @@ function Nav({updateHeaderCoontent}) {
                       >
                         Portofolio
                       </a>
-                    </li>
-                    
+                    </li> 
                   </ul>
                 </nav>
               </div>

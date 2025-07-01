@@ -30,7 +30,7 @@ function Hero() {
               <span className="relative inline-block">
                 <span className="relative">Hi,</span>
               </span>{" "}
-              Im Saputra Langgang Pangestu
+              Hi, Bikinwebmu Here
             </h2>
             <h3 className=" max-w-fit mx-auto mb-6 font-sans text-xl font-light leading-none tracking-tight text-gray-900 animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-black sm:text-xl md:mx-auto">
               Front End Developer and Web Designer
